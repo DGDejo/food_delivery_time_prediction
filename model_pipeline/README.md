@@ -14,7 +14,7 @@ The model is pre-trained and loaded to return predictions via a simple POST requ
 - pip install -r requirements.txt
 
 3. Navigate to the model folder
-- cd food_delivery_time_prediction/model_pipeline/model
+- cd model
 
 ## Create and Activate Virtual Environment
 
