@@ -1,5 +1,7 @@
 ## Feature-Driven Error Patterns
 
+This section summarizes observations made during model evaluation and error analysis in the [notebooks/model.ipynb](../notebooks/model.ipynb) notebook. The focus was on identifying unexpected model behaviors and understanding their possible causes.
+
 ### `Courier_Experience_yrs`
 
 - Although the model gave it a positive coefficient (+8.80), this is counterintuitive.
