@@ -6,6 +6,7 @@ The model is pre-trained and loaded to return predictions via a simple POST requ
 ## How to Run the API Locally
 
 git clone https://github.com/DGDejo/food_delivery_time_prediction.git
+
 cd food_delivery_time_prediction/model_pipeline/model
 
 ## Create and Activate Virtual Environment
