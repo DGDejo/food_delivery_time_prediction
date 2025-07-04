@@ -1,4 +1,4 @@
-# Breakdown by exam part
+# Breakdown by part
 
 ## Part 1: SQL
 All SQL analysis are located in the sql/ folder.
