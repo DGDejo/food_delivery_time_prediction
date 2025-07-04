@@ -1,5 +1,10 @@
 # Breakdown by part
 
+## Cloning the repository
+git clone https://github.com/DGDejo/food_delivery_time_prediction.git
+
+The entire assignment is inside model_pipeline.
+
 ## Part 1: SQL
 All SQL analysis are located in the sql/ folder.
 sql_insights.md contains reasoning and business interpretation.
