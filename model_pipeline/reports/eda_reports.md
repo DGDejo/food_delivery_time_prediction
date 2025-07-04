@@ -17,7 +17,7 @@ I identified **30 missing values** in each of the following columns:
 - `Time_of_Day` 
 - `Courier_Experience_yrs`
 
-The missing values were **dispersed across different rows** (i.e., not concentrated in the same 30 records). Therefore, I applied imputation based on the data type:
+The missing values were **dispersed across different rows** (i.e., not concentrated in the same 30 records). I applied imputation based on the data type:
 
 - **Categorical features**: Imputed using the **mode**.
 - **Numerical feature (`Courier_Experience_yrs`)**:  
@@ -25,11 +25,11 @@ The missing values were **dispersed across different rows** (i.e., not concentra
 
 ## Outliers
 
-Using the interquartile range method, I detected **6 outliers** in the target variable `Delivery_Time_min`, representing just **0.6%** of the dataset.
+Using the interquartile range method, I detected 6 outliers in the target variable `Delivery_Time_min`, representing just 0.6% of the dataset.
 
 I also checked for outliers in the other numeric features (`Distance_km`, `Preparation_Time_min`, `Courier_Experience_yrs`) and no significant outliers were found.
 
-Given that the detected outliers in the target might represent legitimate cases (e.g. long distances or difficult traffic scenarios), I chose to retain them in the dataset.
+Given that the detected outliers in the target might represent legitimate cases (long distances or difficult traffic scenarios), I chose to retain them in the dataset.
 
 ## Feature Relationships
 
