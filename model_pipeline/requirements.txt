@@ -1,0 +1,14 @@
+fastapi
+joblib
+kagglehub
+pandas
+pydantic
+scikit_learn 
+optuna
+xgboost   
+uvicorn
+numpy
+matplotlib 
+seaborn
+statsmodels
+ipykernel
