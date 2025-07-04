@@ -8,14 +8,15 @@ The model is pre-trained and loaded to return predictions via a simple POST requ
 1. Clone the repository
 - git clone https://github.com/DGDejo/food_delivery_time_prediction.git
 
-2. Navigate to the model folder
+2. Install Dependencies
+
+- cd food_delivery_time_prediction/model_pipeline
+- pip install -r requirements.txt
+
+3. Navigate to the model folder
 - cd food_delivery_time_prediction/model_pipeline/model
 
 ## Create and Activate Virtual Environment
-
-## Install Dependencies
-
-pip install -r requirements.txt
 
 ## Run the API
 
