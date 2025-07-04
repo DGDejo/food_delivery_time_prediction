@@ -53,7 +53,7 @@ To validate the performance of Ridge regression, I also tested other commonly us
 - Random Forest and XGBoost showed lower training errors, but worse generalization on both test and cross-validation, suggesting overfitting.
 
 The complete model experimentation is available in the notebook:
-**Full notebook**: [model/experiments/model.ipynb](../model/experiments/model.ipynb)
+**Full notebook**: [notebooks/model.ipynb](../notebooks/model.ipynb)
 
 ## 7. Multicollinearity Check
 
